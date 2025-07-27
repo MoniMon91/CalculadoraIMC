@@ -1,28 +1,27 @@
-# CalculadoraIMC
+# Calculadora IMC
 ## Proyecto UCamp para calcular el índice de masa corporal
 
-### Para construir esta calculadora se hizo uso de los siguientes elementos clave de Python:
-- 'def': Define una función para encapsular la lógica del cálculo del IMC.
-- 'while': Permite repetir el ingreso de datos hasta que estos sean válidos o el usuario desee terminar.
-- 'if': Evalúa condiciones para validar datos y clasificar el IMC.
-- 'raise': Lanza errores personalizados cuando los datos no cumplen con los criterios requeridos. (para esta calculadora no se permiten campos vacíos)
-- 'input': Captura datos del usuario (peso y estatura). (en este caso se encuentra dentro de un bucle while)
-- 'print': Muestra los resultados y mensajes.
-- 'float': Convierte cadenas a números reales para poder hacer operaciones.
-- valores mayores a cero: Se exige que tanto el peso como la estatura sean mayores a 0 para ser válidos.
-- 'ValueError': Tipo de error lanzado si los datos no cumplen las condiciones esperadas.
-- variables: Se utilizan variables como Peso y Estatura para almacenar los datos ingresados.
-- operación IMC: Se usa la fórmula IMC = peso / (estatura ** 2) para obtener el índice.
-- 'break': Termina el bucle de entrada de datos si todo está correcto.
-- 'except': Maneja errores generados por entradas inválidas.
-- 'f-string': Muestra mensajes con variables formateadas de forma legible, como f"Tu IMC es {IMC:.2f}".
-- '{e}\n': Inserta el mensaje del error capturado seguido de un salto de línea.
-- operador **: Eleva la estatura al cuadrado (potencia).
-- 'elif': Evalúa condiciones múltiples en la clasificación del IMC.
-- 'else': Maneja cualquier otra condición no cubierta por if/elif.
-- '\n': Salto de línea para mejorar la presentación del texto.
-- '.2f': Formatea números decimales a 2 cifras.
-- repetir: Variable que guarda si el usuario quiere hacer otro cálculo. (Reiniciar la calculadora)
-- '.strip()': Limpia espacios en la entrada del usuario.
-- '.lower()': Convierte la entrada del usuario a minúsculas para evitar errores de formato.
+## ¿Qué se aprendió con esta Calculadora de IMC?
+
+Esta calculadora sirvió como una práctica sencilla para aprender a programar en Python. Nos permite que el usuario escriba su peso y estatura para saber su Índice de Masa Corporal (IMC). 
+Al crearla, se puso en práctica algunos conceptos de programación
+
+### Conceptos y habilidades aprendidas
+
+- **Definición de funciones (`def`)**: Organización del código en bloques reutilizables.
+- **Entrada de datos con `input()`**: Interacción con el usuario desde la consola.
+- **Conversión de tipos (`float`)**: Transformación de datos ingresados como texto a números decimales.
+- **Validación de datos**: Verificación de que los valores ingresados sean numéricos y mayores que cero.
+- **Manejo de errores (`try`, `except`)**: Gestión de errores comunes para evitar que el programa se detenga por entradas incorrectas.
+- **Lanzamiento de errores personalizados (`raise ValueError`)**: Se fuerza un mensaje de error cuando los datos no cumplen ciertas condiciones.
+- **Bucles (`while`)**: Permite repetir el cálculo del IMC tantas veces como el usuario desee.
+- **Condicionales (`if`, `elif`, `else`)**: Clasificación del resultado del IMC según categorías de salud.
+- **Formato de salida (`.2f`, f-strings)**: Presentación clara y profesional del resultado, limitando los decimales.
+- **Buenas prácticas**: Uso de nombres de variables descriptivos, estructura clara y comentarios explicativos.
+
+### En resumen
+Esta calculadora fue una forma de empezar a aprender cómo se construyen programas organizados e interactivos, que revisan y corrigen errores.
+
+![1AB0938E-795E-4DF6-929E-42FBF8DC6019_4_5005_c](https://github.com/user-attachments/assets/4544b0eb-e17e-4802-ab9a-18fde71149f1)
+
 
