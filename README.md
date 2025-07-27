@@ -26,7 +26,4 @@
 - .strip(): Limpia espacios en la entrada del usuario.
 - .lower(): Convierte la entrada del usuario a minúsculas para evitar errores de formato.
 
-### Resultado esperado
-El usuario verá su IMC calculado con dos decimales, acompañado de su clasificación y le brindará la posibilidad de ejecutar nuevamente la calculadora
-
 
