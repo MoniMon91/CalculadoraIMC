@@ -26,4 +26,3 @@
 - .strip(): Limpia espacios en la entrada del usuario.
 - .lower(): Convierte la entrada del usuario a minúsculas para evitar errores de formato.
 
-
